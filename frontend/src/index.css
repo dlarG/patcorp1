@@ -149,3 +149,34 @@
     animation: fadeInUp 0.8s ease-out forwards;
   }
 }
+
+.custom-popup .leaflet-popup-content-wrapper {
+  border-radius: 16px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.custom-popup .leaflet-popup-content {
+  margin: 0;
+  width: 500px !important;
+}
+
+.custom-popup .leaflet-popup-tip {
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.custom-popup .leaflet-popup-close-button {
+  top: 12px;
+  right: 12px;
+  color: #64748b;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.custom-popup .leaflet-popup-close-button:hover {
+  color: #1e293b;
+  background: none;
+}

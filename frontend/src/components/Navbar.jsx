@@ -47,9 +47,9 @@ const Navbar = () => {
           {/* Logo with hover animation */}
           <Link to="/" className="flex items-center space-x-2 group">
             <img
-              src="/images/logos/logo-nobg.png"
+              src="/images/logos/logo_car_nobg.png"
               alt="PATCORP logo"
-              className="h-15 w-15 transition-all duration-300"
+              className="h-12 w-15 transition-all duration-300"
             />
             <div>
               <span
